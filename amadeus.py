@@ -5,12 +5,8 @@ import json, os, string, sys, threading, logging, time, re, random
 import openai
 
 #OpenAI API key
-aienv = os.getenv('OPENAI_KEY')
-if aienv == None:
-    openai.api_key = "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"
-else:
-    openai.api_key = aienv
-print(aienv)
+openai.api_key = "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"
+
 
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
