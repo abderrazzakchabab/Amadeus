@@ -5,7 +5,7 @@ import json, os, string, sys, threading, logging, time, re, random
 import openai
 
 #OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 
 #Telegram bot key
